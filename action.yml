@@ -23,7 +23,7 @@ inputs:
   SOURCE_PATH:
     description: "Path to invalidate Cloudfront distribution"
     required: false
-    defualt: "."
+    default: "."
 runs:
   using: "docker"
   image: "Dockerfile"
